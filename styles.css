@@ -1,0 +1,444 @@
+
+body{
+    width: 375px;
+    /* height: 2088px; */
+    background-color: rgb(155, 130, 155);
+    text-align: center;
+}
+
+/*
+ header styles 
+ */
+
+header {
+    height: 95px;
+    width: 100%;
+    background-color: rgb(192, 220, 192);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 1;
+}
+
+header img{
+    width: 127px;
+    height: auto;
+}
+
+
+/* 
+landing page styles 
+*/
+
+.landing {
+    position: relative;
+    width: 100%;
+    min-height: 667px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#left-text {
+    position: absolute;
+    top: 115px;
+    left: 20px;
+
+}
+
+#right-text {
+    position: absolute;
+    top: 572px;
+    right: 20px;
+}
+
+.line {
+    font-size: 24px;
+    font-weight: bold;
+    display: block;
+    font-family: PP Gatwick;
+    font-weight: bold;
+    font-size: 30pt;
+    color: white;
+}
+
+.icon img{
+    width: 290px;
+    height: auto;
+    margin-top: 0px;
+    position: absolute;
+    top: 236px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+section{
+    width: 332px;
+    height: 165px;
+    margin-top: 30px;
+    margin-left: 11.5px;
+    margin-right: 11.5px;
+    padding: 10px;
+    background-color: rgb(227, 171, 113);
+    border-radius: 15px;
+    text-align: center;
+}
+
+section p:first-child{
+    font-family: PP Gatwick;
+    font-size: 13pt;
+    font-weight: bold;
+    color: white;
+    margin: 0;
+    padding-bottom: 15px;
+}
+
+section p:last-child{
+    font-family: PP Gatwick;
+    font-size: 13pt;
+    font-weight: Ultralight;
+    color: white;
+    margin: 0;
+}
+
+h2{
+    font-family:Brixton-Sans-Regular ;
+    font-size: 24pt;
+    margin-top: 50px;
+    margin-bottom: 0px;
+}
+
+.stappen{
+    width: 345px;
+    height: auto;
+    margin-bottom: 20px;
+
+}
+
+.missie{
+    font-family:Brixton-Sans-Regular ;
+    font-size: 24pt;
+    margin-top: 30px;
+    margin-bottom: 0;
+    color: white;
+}
+
+h1{
+    margin-top: 120px;
+    font-family:Brixton-Sans-Regular;
+    font-size: 24pt;
+    color: white;
+}
+
+p{
+    text-align: center;
+    font-family: PP Gatwick;
+    font-weight: bold;
+    font-size: 12pt;
+    color: white;
+    margin: 15px;
+    margin-bottom: 0px;  
+}
+
+main img{
+    width: 180px;
+    height: 140px;
+    margin-top: 30px;
+}
+
+.slogan{
+    text-align: center;
+    font-family: PP Gatwick;
+    font-weight: bold;
+    font-size: 18pt;
+    color: black;
+    margin-bottom: 10px;
+}
+
+.inspiration-picture{
+    width: 345px;
+    height: auto;
+    margin-bottom: 20px;
+    margin-top: 120px;
+}
+
+.contact-head{
+    font-family: PP Gatwick;
+    font-size: 31pt;
+}
+
+.contact-text{
+    color: black;
+    margin-bottom: 15px;
+}
+
+
+/*
+button styles
+*/
+
+main button{
+    background-color: rgb(225, 171, 113);
+    width: 312px;
+    height: 37px;
+    border-radius: 5px;
+    padding: 0px;
+    font-family: PP Gatwick;
+    font-size: 15pt;
+    color: white;
+    border: solid 1px white;
+    margin: 20px 0px;
+    cursor: pointer;
+}
+
+
+/*
+form styles
+*/
+
+form {
+    padding-top: 30px;
+    width: 90%;
+    max-width: 277px;
+    margin-left: 31.5px;
+}
+
+.fild{
+    margin-bottom: 25px;
+    position:relative; 
+} 
+
+.text-fild{
+    position: relative;
+    margin-bottom: 0px;
+}
+
+.form-input, textarea {
+    min-width: 277px;
+    padding: 1em;
+    outline: none;
+    border: 0.1em solid #333;
+    border-radius: 5px;
+    background-color: rgb(243, 219, 213);
+    font-family: PP Gatwick;
+    font-size: 12pt;
+}
+
+form label {
+    font-family: PP Gatwick;
+    font-weight: bold;
+    height: 50px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 1em;
+    cursor: text;
+}   
+
+.text-fild{
+    position: relative;
+    margin-bottom: 0px;
+}
+
+
+/*
+form animations
+*/
+
+.form-input:focus~label,
+.form-input:valid~label,
+textarea:focus~label,
+textarea:valid~label {
+    top: -2.5em;
+    font-size: 0.75em;
+}
+
+
+/* 
+footer styles 
+*/
+
+footer{
+    background-color: rgb(192, 220, 192) ;
+    padding-top: 25px;
+    padding-left: 0px;
+    height: 181px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer p {
+    font-family: PP Gatwick;
+    font-weight: bold;
+    font-size: 16pt;
+    color: rgb(155, 130, 155);
+    text-align: left;
+    margin: 0px;
+    padding-left: 15px;
+}
+
+.language {
+    font-family: PP Gatwick;
+    display: flex;
+    align-items: center;
+    border-bottom: solid 1px rgb(155, 130, 155);
+    padding-left: 15px;
+}
+
+.language-button {
+    background-color: rgb(203, 184, 204);
+    color: rgb(155, 130, 155);
+    border: none;
+    border-radius: 5px;
+    font-family: Brixton-Sans-Regular;
+    font-size: 16pt;
+    padding: 15px 15px;
+    margin: 20px 5px;
+    cursor: pointer;
+}
+
+.language-button:focus {
+    border: solid 1px rgb(155, 130, 155);
+}
+
+.social-icons {
+    display: flex;
+       
+}
+
+.social-icons ul{
+    display: flex;
+    margin: 0;
+    padding-left: 15px;
+}
+
+.social-icons ul li{
+    list-style-type: none;
+}
+
+.social-icons a{
+    text-decoration: none;
+    color: #333; 
+    
+}
+
+.social-icons img{
+    width: 35px;
+    margin-top: 15px;
+    margin-right: 15px;
+    margin-left: 5px;
+    padding-bottom: 20px;
+    padding: 0px;
+}
+
+
+
+  /**
+    Hamburger
+  **/
+#toggle {
+    display: none;
+  }
+  
+  .hamburger {
+    position: fixed;
+    bottom: 0.5em;
+    right: 0.5em;
+    margin-left: 1em;
+    margin-top: -45px;
+    width: 3em;
+    height: 45px;
+    z-index: 5;
+    border: solid 2px white;
+    background-color: rgb(155, 130, 155);
+    padding-left: 4px;
+    padding-right: 4px;
+  }
+  
+  .hamburger div {
+    position: relative;
+    width: 3em;
+    height: 7px;
+    border-radius: 3px;
+    background-color: white;
+    margin-top: 6px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  /**
+  Nav Styles
+  **/
+  .nav {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(155, 130, 155);
+    top: -100%; left: 0; right: 0; bottom: 0;
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
+    transform: scale(0);
+  }
+  .nav-wrapper {
+    position: relative;
+    overflow: hidden;
+    overflow-y: auto;
+    height: 100%;
+  }
+  nav {
+    text-align: center;
+    margin: 0;
+    margin-top: 202px;
+  }
+  nav a {
+    position: relative;
+    text-decoration: none;
+    color:rgb(191, 219, 191);
+    font-family: PP Gatwick;
+    font-weight: bold;
+    font-size: 2em;
+    display: inline-block;
+    padding-top: 0.75em;
+    padding-bottom: 0.75em;
+    transition: color 0.2s ease-in-out;
+    letter-spacing: 1px;
+    border-bottom: solid 1px rgb(191, 219, 191);
+    
+  }
+  nav a:before {
+    content: '';
+    height: 0;
+    position: absolute;
+    width: 0.25em;
+    background-color: white;
+    left: -0.5em;
+    transition: all 0.2s ease-in-out;
+  }
+  nav a:hover {
+    color: white;
+  }
+  
+  /**
+  Nav Animations
+  **/
+  #toggle:checked + .hamburger .top-bun {
+    transform: rotate(-45deg);
+    margin-top: 20px;
+  }
+  #toggle:checked + .hamburger .bottom-bun {
+    opacity: 0;
+    transform: rotate(45deg);
+  }
+  #toggle:checked + .hamburger .meat {
+    transform: rotate(45deg);
+    margin-top: -7px;
+  }
+  
+  #toggle:checked + .hamburger + .nav {
+    top: 0;
+    transform: scale(1);
+  }
+
+
