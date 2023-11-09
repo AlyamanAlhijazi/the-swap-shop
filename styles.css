@@ -1,7 +1,6 @@
 
 body{
     width: 375px;
-    /* height: 2088px; */
     background-color: rgb(155, 130, 155);
     text-align: center;
 }
@@ -179,8 +178,12 @@ main img{
 /*
 button styles
 */
+.invloed-button a{
+    text-decoration: none;
+    color: white;
 
-main button{
+}
+.invloed-button{
     background-color: rgb(225, 171, 113);
     width: 312px;
     height: 37px;
@@ -188,10 +191,11 @@ main button{
     padding: 0px;
     font-family: PP Gatwick;
     font-size: 15pt;
-    color: white;
     border: solid 1px white;
     margin: 20px 0px;
+    margin-left: 30.5px;
     cursor: pointer;
+    padding-top: 9px;
 }
 
 
@@ -241,6 +245,20 @@ form label {
 .text-fild{
     position: relative;
     margin-bottom: 0px;
+}
+
+.submit{
+    background-color: rgb(225, 171, 113);
+    width: 312px;
+    height: 37px;
+    border-radius: 5px;
+    padding: 0px;
+    font-family: PP Gatwick;
+    font-weight: bold;
+    font-size: 15pt;
+    border: solid 1px black;
+    margin: 20px 0px;
+    cursor: pointer;
 }
 
 
@@ -340,7 +358,7 @@ footer p {
     Hamburger
   **/
 #toggle {
-    display: none;
+    display:none;
   }
   
   .hamburger {
@@ -358,13 +376,41 @@ footer p {
     padding-right: 4px;
   }
   
-  .hamburger div {
-    position: relative;
+  .hamburger .top-bun{
+    position: fixed;
+    bottom: 2em;
+    right: 0.85em;
     width: 3em;
     height: 7px;
     border-radius: 3px;
     background-color: white;
-    margin-top: 6px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    transition: all 0.3s ease-in-out;
+  }
+  .hamburger .bottom-bun{
+    margin: 0px;
+    position: fixed;
+    bottom: 0.8em;
+    right: 0.85em;
+    width: 3em;
+    height: 7px;
+    border-radius: 3px;
+    background-color: white;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    transition: all 0.3s ease-in-out;
+  }
+  .hamburger .meat{
+    position: fixed;
+    bottom: 1.4em;
+    right: 0.85em;
+    width: 3em;
+    height: 7px;
+    border-radius: 3px;
+    background-color: white;
+    margin-top: 5px;
+    margin-bottom: 5px;
     transition: all 0.3s ease-in-out;
   }
   
@@ -437,7 +483,7 @@ footer p {
   }
   
   #toggle:checked + .hamburger + .nav {
-    top: 0;
+    top: 10px;
     transform: scale(1);
   }
 
